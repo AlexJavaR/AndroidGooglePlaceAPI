@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- City and Country Selector -->
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/location_til"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp">
+
+        <AutoCompleteTextView
+            android:id="@+id/autocomplete_places"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:hint="Type address"
+            android:maxLines="1"
+            android:textAlignment="viewStart" />
+    </android.support.design.widget.TextInputLayout>
+</LinearLayout>

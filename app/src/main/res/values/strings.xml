@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GooglePlaceApi</string>
+    <string name="google_maps_key">YOUR GOOGLE KEY</string>
+</resources>
